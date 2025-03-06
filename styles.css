@@ -1,0 +1,88 @@
+body{
+    background-color: aqua;
+    font-family: Arial, sans-serif;
+    align-items: center;
+
+}
+
+header{
+    text-align: center; 
+    background-color: antiquewhite;
+    
+}
+
+div{
+    align-items: center;
+    text-align: justify;
+    overflow-wrap: break-word;
+}
+
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 25px;
+    background-color: snow;
+    border-radius: 3%;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+    
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+}
+
+.div3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-row-start: 6;
+}
+
+.div5 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 6;
+}
+
+
+
+section{
+    align-items: center;
+
+
+}
+
+enlaces{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+h1, h2, h3{
+    text-align: center;
+    text-decoration: underline solid;
+}
+
+
+
+
+
